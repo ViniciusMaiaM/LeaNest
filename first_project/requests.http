@@ -1,0 +1,10 @@
+### Creates a new message
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "test"
+}
+
+### Gets a particular message
+GET http://localhost:3000/messages/1
